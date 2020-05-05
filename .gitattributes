@@ -1,1 +1,2 @@
 dump.sql filter=lfs diff=lfs merge=lfs -text
+amazon-meta.txt filter=lfs diff=lfs merge=lfs -text
