@@ -17,6 +17,6 @@ To Initialize the Database:
 * Method 1: preprocess.py (approx. 8 minutes)
 	* This requires config.ini to be set up appropriately AND for testdb (or whatever you want to name it) to already exist
 	* Please note that preprocess.py uses the LOAD DATA command, which requires my.cnf to have the appropriate permission
-		* Ex. secure_file_priv=/Users/madisonlucas905/Desktop/DB-Project-master
+		* Ex. secure_file_priv=/Users/madisonlucas905/Desktop/DB-Project
 * Method 2: dump.sql
 	* I included a data dump in dump.sql. The configurations would still need to be set up, but this method will take longer due to sequential insertion statements, which uses an algorithm about 20 times slower than LOAD DATA.
