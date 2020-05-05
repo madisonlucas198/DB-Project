@@ -4,7 +4,7 @@
 # main store front.
 
 Files Inlcuded:
-* config.ini (please not that there is a second config setup on line 100 of preprocess.py)
+* config.ini (please note that there is a second config setup on line 100 of preprocess.py)
 * preprocess.py => fills tables in database testdb
 	* assisted by product_information.txt, product_weights.txt, and amazon-meta.txt
 * run_app.py => launches search engine in web browser
