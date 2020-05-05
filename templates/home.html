@@ -1,0 +1,36 @@
+<!-- File: home.html
+Programmers: Ben Baierl, Drew Heald, Gloria Tie, and Madison Lucas
+This is the html template for the landing page of the online store. -->
+<html>
+<head>
+  <title>Search the Products!</title>
+  <link rel="stylesheet" href="../static/index.css">
+</head>
+
+<div class="one">
+<body>
+  <div class = "center">
+    <pre style="color: black;">
+	       (                      (                 )              )            (         )        
+	 )\ )           (       )\ )     (     ( /(           ( /(   (        )\ )   ( /(            
+	(()/(   (       )\     (()/(     )\    )\())    (     )\())  )\ )    (()/(   )\())  (        
+	 /(_))  )\   ((((_)(    /(_))  (((_)  ((_)\     )\   ((_)\  (()/(     /(_)) ((_)\   )\        
+	(_))   ((_)   )\ _ )\  (_))    )\___   _((_)   ((_)   _((_)  /(_))_  (_))    _((_) ((_)        
+	/ __|  | __|  (_)_\(_) | _ \  ((/ __| | || |   | __| | \| | (_)) __| |_ _|  | \| | | __|        
+	\__ \  | _|    / _ \   |   /   | (__  | __ |   | _|  | .` |   | (_ |  | |   | .` | | _|        
+	|___/  |___|  /_/ \_\  |_|_\    \___| |_||_|   |___| |_|\_|    \___| |___|  |_|\_| |___|      
+                                                                                                
+    </pre>
+    <h1>Welcome to My Search Engine (in process!)</h1>
+    <form action="goToResultsPage" method="post">
+    	Type Search Here:
+    	<br>
+    		<input type="text" name="searchString" id="searchString" value="{{request.form.searchString}}">   
+		<br>
+		<br><br>
+		 <button name="seeResultsPage" id="searchButton">Search</button>
+	</form>
+  </div>
+</body>
+</div>
+</html>
