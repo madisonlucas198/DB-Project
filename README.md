@@ -1,7 +1,6 @@
 # DB-Project
 
-# This is the program(s) to run the search engine, which will be integreated back into the 
-# main store front.
+# This is the program(s) to run the search engine, which will be integreated back into the main store front.
 
 Files Inlcuded:
 * config.ini (please note that there is a second config setup on line 100 of preprocess.py)
